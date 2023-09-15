@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Kingfisher"
-  s.version      = "7.7.0"
+  s.version      = "7.7.1-static"
   s.summary      = "A lightweight and pure Swift implemented library for downloading and cacheing image from the web."
 
   s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                    * A category over `UIImageView` for setting image from an url directly.
                    DESC
 
-  s.homepage     = "https://github.com/onevcat/Kingfisher"
+  s.homepage     = "https://github.com/kamavitalya/Kingfisher"
   s.screenshots  = "https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.14"
   s.watchos.deployment_target = "5.0"
 
-  s.source       = { :git => "https://github.com/onevcat/Kingfisher.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/kamavitalya/Kingfisher.git", :tag => s.version }
   s.source_files  = ["Sources/**/*.swift"]
 
   s.requires_arc = true
